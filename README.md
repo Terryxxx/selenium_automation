@@ -1,6 +1,6 @@
 # selenium_automation
 
-这是一个基于Selenium的Web端的UI自动化测试狂街，采用了PageObject模式。
+这是一个基于Selenium的Web端的UI自动化测试框架，采用了PageObject模式。
 
 #
 
@@ -8,7 +8,7 @@
 
     BeautifulReport: 产生HTML Report的模版
     business: 用于处理页面逻辑事件
-    common: 初始化 browser
+    common: 初始化浏览器
     drivers: 存放各种浏览器的driver
     img: 存放case错误截图
     logs: 存放日志信息
