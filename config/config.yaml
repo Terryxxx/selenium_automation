@@ -1,0 +1,4 @@
+local_url: http://www.baidu.com/
+api_url: http://www.baidu.com/
+browser: headless
+num: 800

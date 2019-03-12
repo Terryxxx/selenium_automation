@@ -12,7 +12,6 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from BeautifulReport.BeautifulReport import BeautifulReport
 from business.baidu_home_business import HomeBusiness
-from common.browser_engine import open_browser
 from utils.base_runner import BaseWebTestCase
 
 class TestBaiDuSearch(BaseWebTestCase):
@@ -26,4 +25,4 @@ class TestBaiDuSearch(BaseWebTestCase):
     def test_baidu_search_fail(self):
         self.home = HomeBusiness(self.web_driver)
         self.home.search_by_text('中国')
-        assert 1 == 2
+        assert 1==2
